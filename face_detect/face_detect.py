@@ -14,6 +14,7 @@ import cv2
 # display_width and display_height determine the size of the window on the screen
 # Notice that we drop frames if we fall outside the processing time in the appsink element
 
+
 def gstreamer_pipeline(
     capture_width=1920,
     capture_height=1080,
